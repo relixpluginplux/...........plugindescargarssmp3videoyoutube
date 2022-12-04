@@ -53,7 +53,7 @@ padding: 0;
 .custom-shape-divider-bottom-1610026357 svg {
     position: relative;
     display: block;
-    width: calc(50% + 1.3px);
+    width: calc(10% + 0.3px);
     height: 0px;
 }
 
@@ -72,21 +72,21 @@ a{
   padding:10px 40px;
   text-decoration:none;
   text-transform:uppercase;
-  letter-spacing:2px;
+  letter-spacing:0px;
   color:#000000;
   font-size:25px;
   border-radius:40px;
   box-shadow:-5px -5px 8px rgb(68, 9, 9),
-             -5px -5px 12px rgba(255,255,255,0.5),
+             -5px -5px 80px rgb(255, 255, 255),
         inset 5px 5px 5px rgba(255,255,255,0.1),
               5px 5px 8px rgba(0,0,0,0.15);
   
 }
 a:hover{
-       box-shadow:inset -5px -5px 8px rgb(7, 0, 0),
+       box-shadow:inset -5px -5px 8px rgb(226, 225, 225),
        inset -5px -5px 12px rgba(255,255,255,0.5),
-       inset 5px 5px 5px rgba(255,255,255,0.1),
-       inset 5px 5px 8px rgba(0,0,0,0.15);
+       inset 5px 5px 5px rgba(255, 255, 255, 0.1),
+       inset 5px 5px 8px rgba(255, 255, 255, 0.15);
        
 }
 a:hover span{
@@ -94,28 +94,35 @@ a:hover span{
              transform:scale(0.98);
 }
 
+.card2{
+		cursor: pointer;
+		background: #5c0606;
+    width:100%;    
+  height:50px;   
+		font-size: 55px;
+	}
   </style>
 </head>
 <body>
-<div style="position: relative; background-image: linear-gradient(to right, #5c0f0f, #2d4363, #507fa0, #5c3f3f, #4e0909); min-height: 99vh;">
+<div style="position: relative; background-image: linear-gradient(to right, #5c0f0f, #310f0f, #2c2828, #310f0f, #5c0f0f); min-height: 100vh;">
          
 <div id='hd'>  
   <br>  
   <center><a href="index.html" target="nombre" onclick="location.refresh()"><img alt="youtube video downloader" height="100" src="https://img.freepik.com/iconos-gratis/reiniciar_318-722955.jpg?w=2000" title="High Quality YouTube Video Downloader" width="100" /></a></center><div class="col-md-6 offset-md-3 mt-5">
    
     <div>
-      <center><big><big><b> Reestablecer </b></big></big></center>
+      <center><big><big><span style="color:#ffffff"><b> Reestablecer </b></span></big></big></center>
   </div>
     <br>
     <div class="card">
-      <div class="card-header bg-info">
-        <center><h5>Plugin Descargas VIDEO & MP3</h5>
+       <div class="card2">
+        <center><h5><span style="color:#ffffff"><b>Plugin Descarga De VIDEO & MP3</b></span></h5>
       </div>
       <div class="card-body">
         <div class="row">
           <div class="col-md-12">
             <div class="form-group">
-              <label class="text-weight"><b>Ingrese el enlace del video de Youtube:</b></label>
+              <label class="text-weight"><b>Ingrese el enlace o nombre del video:</b></label>
               <input type="txt" name="link" class="form-control link" required>
             </div>
           </div>
@@ -124,9 +131,9 @@ a:hover span{
           <div class="row">
             <div class="col-md-12">
               <div class="form-group">
-                <label class="text-weight"><b>Selecciona el formato de vídeo:</b></label>
+                <label class="text-weight"><b>Selecciona el formato que desea:</b></label>
                 <select class="form-control formte" required>
-                  <option selected disabled>Selecciona el formato de video</option>
+                  <option selected disabled>Selecciona un formato </option>
                   <option value="mp3">Mp3</option>
                   <option value="mp4a">144 Mp4</option>
                   <option value="360">360 Mp4</option>
@@ -142,7 +149,7 @@ a:hover span{
           <div class="row">
             <div class="col-md-12">
               <div class="form-group mt-4 download-video">
-                <button class="btn btn-success btn-block click-btn-down" type="submit">Click AQUI</button>
+                <button class="btn btn-success btn-block click-btn-down" type="submit"><b>Click AQUI</b></button>
               </div>
             </div>
           </div>
@@ -180,9 +187,9 @@ a:hover span{
 <br>
 <br>
 <div>
-    <center>©<script><b>
+    <center><span style="color:#ffffff"><b>©<script>
             new Date().getFullYear() > 2012 && document.write("-" + new Date().getFullYear());
-        </script>, PLUGIN STUDIOS todos los derechos Reservados .</b></center>
+        </script>, PLUGIN STUDIOS todos los derechos Reservados .</b></span></center>
         <br>
       
 
